@@ -99,6 +99,7 @@ public class KDtree {
             return false;
         }
         if (checkPoint(root.values, point)){
+            System.out.println(depth);
             return true;
         }
 
